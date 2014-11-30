@@ -9,7 +9,8 @@
 
 ##Information
 
-You can watch our first prototype in action [here](https://www.facebook.com/video.php?v=1381318128827224&set=vb.1378883359070701&type=2&theater)
+You can watch our first prototype in action [here](https://www.facebook.com/video.php?v=1381318128827224&set=vb.1378883359070701&type=2&theater).
+
 During the These Days Hackathon 2014, the team comprised of above members successfully managed to map Kinect gestures to an infrared remote controlled helicopter using an Arduino Uno as the controller. This won us the first prize out of a pool of very creative ideas and projects by our fellow students.
 
 We had 24 hours to build this up from scratch and were close to giving up due to the complex nature of making all these individual technologies and components communicate with one another, yet managed to get it working as a whole a few hours before the final signal was given.
