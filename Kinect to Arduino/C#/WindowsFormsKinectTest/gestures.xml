@@ -1,0 +1,37 @@
+﻿<Gestures GestureResetTimeout="500">
+    <Gesture Description="Previous Bullet" MaxExecutionTime="1500" MappedKeyCode="VK_1">
+        <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="AboveAndLeft" BeginningRelationship="BelowAndLeft" />
+    </Gesture>
+    <Gesture Description="Next Bullet" MaxExecutionTime="1500" MappedKeyCode="VK_0">
+        <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="BelowAndLeft" BeginningRelationship="AboveAndLeft" />
+    </Gesture>
+  <Gesture Description="Previous Bullet" MaxExecutionTime="1500" MappedKeyCode="VK_4">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="AboveAndRight" BeginningRelationship="BelowAndRight" />
+  </Gesture>
+  <Gesture Description="Next Bullet" MaxExecutionTime="1500" MappedKeyCode="VK_5">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="BelowAndRight" BeginningRelationship="AboveAndRight" />
+  </Gesture>
+  <Gesture Description="Next Bullet" MaxExecutionTime="1000" MappedKeyCode="VK_2">
+      <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="BelowAndRight" BeginningRelationship="BelowAndLeft" />
+    </Gesture>
+    <Gesture Description="Next Bullet" MaxExecutionTime="1000" MappedKeyCode="VK_3">
+      <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="BelowAndLeft" BeginningRelationship="BelowAndRight" />
+    </Gesture>
+  <!--
+  <Gesture Description="hold previous bullet" MaxExecutionTime="1500" MappedKeyCode="VK_6">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="AboveAndLeft" BeginningRelationship="AboveAndLeft" />
+  </Gesture>
+  <Gesture Description="hold next bullet" MaxExecutionTime="1500" MappedKeyCode="VK_7">
+    <GestureComponent FirstJoint="WristLeft" SecondJoint="ShoulderLeft" EndingRelationship="AboveAndRight" BeginningRelationship="AboveAndRight" />
+  </Gesture>
+  <Gesture Description="Hold Next Bullet" MaxExecutionTime="1000" MappedKeyCode="VK_8">
+      <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="BelowAndRight" BeginningRelationship="BelowAndRight" />
+  </Gesture>
+  <Gesture Description="Hold Next Bullet" MaxExecutionTime="1000" MappedKeyCode="VK_9">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="BelowAndLeft" BeginningRelationship="BelowAndLeft" />
+  </Gesture>
+    <Gesture Description="Next Bullet" MaxExecutionTime="1500" MappedKeyCode="SPACE">
+    <GestureComponent FirstJoint="WristRight" SecondJoint="ShoulderRight" EndingRelationship="BelowAndRight" BeginningRelationship="AboveAndRight" />
+  </Gesture>
+  -->
+</Gestures>
